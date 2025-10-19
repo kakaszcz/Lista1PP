@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
-int main()
-{
+
+int main() {
     double a, b, c;
     printf("Podaj a:");
     scanf("%lf", &a);

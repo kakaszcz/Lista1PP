@@ -2,7 +2,7 @@
 #define _USE_MATH_DEFINES
 #include <math.h>
 
-int main(){
+int main() {
     double a, b, c, d, e, f, w;
 
     printf("podaj a:");
@@ -15,16 +15,13 @@ int main(){
     scanf("%lf", &c);
 
     f = b + c;
-    if(f == 0)
-    {   printf("Mianownik nie moze rownac sie zero! \n Prosze zmienic b lub c.");
+    if(f == 0) {   
+        printf("Mianownik nie moze rownac sie zero! \n Prosze zmienic b lub c.");
         return 1;
     }
     d = a*b/f;
     e = a*c/f;
-
     w = d + e;
-
-
     printf("Wynik wynosi: %lf", w);
     
     return 0;

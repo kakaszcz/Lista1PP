@@ -2,7 +2,7 @@
 #define _USE_MATH_DEFINES
 #include <math.h>
 
-int main(){
+int main() {
     double a, p, n, i, k;
 
     printf("podaj a:");

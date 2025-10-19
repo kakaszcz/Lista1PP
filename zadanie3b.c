@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main(){
+
+int main() {
     int n = 0;
     double a, b, c, suma, srednia;
 
@@ -18,12 +19,11 @@ int main(){
     suma = a + b + c;
     srednia = suma/n;
 
-    if("srednia > 5.0"){
+    if("srednia > 5.0") {
         printf("Wysoka srednia\n");
     }
     printf("Srednia wynosi %lf\n", srednia);
     printf("Suma wynosi %lf", suma);
 
     return 0;
-
 }

@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
     int a, b, s;
     printf("Podaj a:");
     scanf("%d", &a);
@@ -9,15 +8,15 @@ int main()
     printf("Podaj b:");
     scanf("%d", &b);
 
-    if(a > b){
+    if(a > b) {
         printf("Pierwsza liczba jest wieksza od drugiej\n");
-    } else if(a == b){
+    } else if(a == b) {
         printf("Podane liczby sa rowne\n");
     } else {
         printf("Druga liczba jest wieksza od pierwszej\n");
-
         s = a + b;
         printf("Suma podanych liczb wynosi: %d", s);
-        return 0;
     }
+
+    return 0;
 }
